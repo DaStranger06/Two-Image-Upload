@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#2b3e50"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:textColor="#FFF"
+        android:background="#606062"
+        android:text="Upload"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:id="@+id/pickImgaeButton"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/previewImage"
+        android:layout_width="match_parent"
+        android:layout_height="189dp" />
+
+    <ImageView
+        android:id="@+id/previewImage2"
+        android:layout_width="match_parent"
+        android:layout_height="246dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:hint="Enter your name !"
+        android:inputType="text"
+        android:textColor="#FFF"
+        android:textColorHint="#c9c5c5" />
+    <Button
+        android:layout_width="match_parent"
+        android:textColor="#FFF"
+        android:background="#606062"
+        android:text="Upload"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:id="@+id/upload"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
